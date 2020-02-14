@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Domain", "FCamara.Domain\FCamara.Domain.csproj", "{929A4187-D057-4AA3-ADCD-059A904CB18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Infra", "FCamara.Infra\FCamara.Infra.csproj", "{38A0B586-7921-4206-B1E3-B13FDB6C1278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.API", "FCamara.API\FCamara.API.csproj", "{DB685FEA-5808-485E-B857-830A3BC8EB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Tests", "FCamara.Tests\FCamara.Tests.csproj", "{C86510B0-1C2C-4CAB-BF98-212FF485A211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Application", "FCamara.Application\FCamara.Application.csproj", "{9C9BB8F7-76B9-4EA6-9225-4BE91D55B58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.IOC", "FCamara.IOC\FCamara.IOC.csproj", "{42442DD2-EFD8-4751-B585-9CBD76ADF6C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929A4187-D057-4AA3-ADCD-059A904CB18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929A4187-D057-4AA3-ADCD-059A904CB18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929A4187-D057-4AA3-ADCD-059A904CB18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929A4187-D057-4AA3-ADCD-059A904CB18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A0B586-7921-4206-B1E3-B13FDB6C1278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A0B586-7921-4206-B1E3-B13FDB6C1278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A0B586-7921-4206-B1E3-B13FDB6C1278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A0B586-7921-4206-B1E3-B13FDB6C1278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB685FEA-5808-485E-B857-830A3BC8EB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB685FEA-5808-485E-B857-830A3BC8EB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB685FEA-5808-485E-B857-830A3BC8EB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB685FEA-5808-485E-B857-830A3BC8EB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86510B0-1C2C-4CAB-BF98-212FF485A211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86510B0-1C2C-4CAB-BF98-212FF485A211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86510B0-1C2C-4CAB-BF98-212FF485A211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86510B0-1C2C-4CAB-BF98-212FF485A211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9BB8F7-76B9-4EA6-9225-4BE91D55B58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9BB8F7-76B9-4EA6-9225-4BE91D55B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9BB8F7-76B9-4EA6-9225-4BE91D55B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9BB8F7-76B9-4EA6-9225-4BE91D55B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42442DD2-EFD8-4751-B585-9CBD76ADF6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42442DD2-EFD8-4751-B585-9CBD76ADF6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42442DD2-EFD8-4751-B585-9CBD76ADF6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42442DD2-EFD8-4751-B585-9CBD76ADF6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E560635D-D660-4FDC-984E-2D485D6D6E39}
+	EndGlobalSection
+EndGlobal
